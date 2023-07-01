@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #5A5A5A;
+}
+
+#level-title {
+  font-family: Comic Sans MS Bold, cursive;
+  font-size: 5rem;
+  margin:  5%;
+  color: #D7C0AE;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 220px;
+  width: 220px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF9F9F;
+}
+
+.green {
+  background-color: #A0C49D;
+}
+
+.blue {
+  background-color: #93BFCF;
+}
+
+.yellow {
+  background-color: #FFF6BD;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
